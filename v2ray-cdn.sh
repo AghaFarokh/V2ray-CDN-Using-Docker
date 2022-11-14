@@ -23,7 +23,7 @@ mkdir tls
 
 curl https://get.acme.sh | sh
 ~/.acme.sh/acme.sh --set-default-ca --server letsencrypt
-~/.acme.sh/acme.sh --register-account -m linuxmaster14@gmail.com
+~/.acme.sh/acme.sh --register-account -m mr.farokh@gmail.com
 ~/.acme.sh/acme.sh --issue -d $DOMAIN --standalone
 ~/.acme.sh/acme.sh --installcert -d $DOMAIN --key-file ./tls/private.key --fullchain-file ./tls/cert.crt
 
@@ -99,7 +99,7 @@ cat > vless.json << EOF
           {
             "id": "$UUID",
             "level": 0,
-            "email": "linuxmaster14@gmail.com"
+            "email": "mr.farokh@gmail.com"
           }
         ],
         "decryption": "none",
