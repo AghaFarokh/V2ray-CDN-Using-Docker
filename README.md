@@ -13,5 +13,5 @@ u can run this command easily to install this script
 ```
 git clone https://github.com/AghaFarokh/V2ray-CDN-Using-Docker && cd V2ray-CDN-Using-Docker && bash v2ray-cdn.sh
 ```
-Notice : If u are in Iran use 443 port for vmess and 8080 for vless
+Notice : If u are in Iran use 443 port for vmess and 8443 for vless
 @AghaFarokh
