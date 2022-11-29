@@ -8,6 +8,10 @@ It's easy to use
 4. when installtion is finished go and enable your cdn proxy
 5. now u have vmess and vless + domain + ssl + cdn
 
+OR
+u can run this command 
+
+git clone https://github.com/AghaFarokh/V2ray-CDN-Using-Docker && cd V2ray-CDN-Using-Docker && bash v2ray-cdn.sh
 
 Notice : If u are in Iran use 443 port for vmess and 8080 for vless
 @AghaFarokh
